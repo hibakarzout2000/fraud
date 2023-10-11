@@ -1,0 +1,65 @@
+img {
+    width: 130px;
+    height: 90px;
+    /* Additional adjustments for image alignment */
+    margin-top: 30%; /* Adjust the top margin as needed */
+    margin-bottom: 0%; /* Adjust the bottom margin as needed */
+    margin-left: 20%; /* Adjust the left margin as needed */
+  }
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.layout-navbar-fixed .wrapper .brand-link {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    transition: width .3s ease-in-out;
+}
+
+.user-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-letter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.main-footer {
+    clear: both;
+}
